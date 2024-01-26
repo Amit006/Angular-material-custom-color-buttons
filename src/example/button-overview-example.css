@@ -31,6 +31,7 @@ section {
 }
 
 .mat-orange {
+  color: white;
   --mdc-protected-button-label-text-color: white;
 
   /* for  mat-button */
