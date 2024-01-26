@@ -1,0 +1,54 @@
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.mat-orange {
+  --mdc-protected-button-label-text-color: white;
+
+  /* for  mat-button */
+  --mdc-text-button-label-text-color: orange;
+
+  /* for  mat-stroked-button */
+  --mdc-outlined-button-label-text-color: orange;
+
+  /* for  mat-flat-button */
+  --mdc-filled-button-container-color: orange;
+
+  /* for  mat-icon-button */
+  --mdc-icon-button-icon-color: orange;
+
+  /* for  mat-fab and  mat-mini-fab */
+  --mdc-fab-container-color: orange;
+}
+
+.mat-mdc-raised-button.mat-orange {
+  --mdc-protected-button-container-color: orange;
+}
